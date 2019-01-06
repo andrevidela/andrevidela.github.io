@@ -1,0 +1,20 @@
+
+
+{
+  "title": "Protocol Programing",
+  "publisherName": "André Videla",
+  "feedIdentifier": "io.github.andrevidela",
+  "contactURL": "mailto:andre.videla@gmail.com",
+  "formatVersion": "1.0",
+  "documents": [
+    {
+      "title": "Advanced Vectors",
+      "overviewSubtitle": "Implement Vectors with Protocols",
+      "detailSubtitle": "https://github.com/andrevidela/Dependent-Swift/releases/download/v1.0/Vector2D.Blog.playground.zip",
+      "description": "A playground to show the power of protocols when implementing Vectors and Linear Spaces.",
+      "contentVersion": "1.0",
+      "url": ""
+    }
+  ]
+}
+
