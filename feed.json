@@ -10,10 +10,12 @@
     {
       "title": "Advanced Vectors",
       "overviewSubtitle": "Implement Vectors with Protocols",
-      "detailSubtitle": "https://github.com/andrevidela/Dependent-Swift/releases/download/v1.0/Vector2D.Blog.playground.zip",
+      "detailSubtitle": "Vectors and Linear Spaces in Swift",
       "description": "A playground to show the power of protocols when implementing Vectors and Linear Spaces.",
       "contentVersion": "1.0",
-      "url": "https://github.com/andrevidela/Dependent-Swift/releases/download/v1.0/PlaygroundBook.playgroundbook.zip"
+      "url": "https://github.com/andrevidela/Dependent-Swift/releases/download/v1.0/PlaygroundBook.playgroundbook.zip",
+      "publishedDate": "2019-01-07T12:16:37+0000",
+      "lastUpdateDate": "2019-01-07T12:16:37+0000"
     }
   ]
 }
