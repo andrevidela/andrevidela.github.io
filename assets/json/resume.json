@@ -30,13 +30,58 @@
       "highlights": ["Haskell", "Compiler engineering", "Applied category theory"]
     },
     {
-      "name": "Engineer Statebox",
+      "name": "Statebox",
       "position": "Software engineer",
       "url": "https://statebox.org",
       "startDate": "2018-04-01",
       "endDate": "2019-01-31",
       "summary": "Maintained the Typedefs library and other internal tools",
       "highlights": ["Haskell", "Compiler engineering", "Applied category theory"]
+    },
+    {
+      "name": "Bity SA",
+      "position": "Backend Developer",
+      "url": "",
+      "startDate": "2018-04-16",
+      "endDate": "2018-12-31",
+      "summary": "Lead a small team to develop new microservices in Haskell to provide a formal method approach to banking services",
+      "highlights": ["Haskell", "Microservices", "Management"]
+    },
+    {
+      "name": "Self-Employed",
+      "position": "Mobile Developer",
+      "url": "",
+      "startDate": "2017-10-01",
+      "endDate": "2018-30-30",
+      "summary": "Worked as a consultant for private customers on iOS mobile applications. During that time I specialised in delivery and service apps like Uber clones",
+      "highlights": ["iOS", "Swift", "Objective-C", "Mobile development"]
+    },
+    {
+      "name": "Sicpa SA",
+      "position": "Mobile Developer",
+      "url": "https://www.sicpa.com",
+      "startDate": "2016-10-01",
+      "endDate": "2017-06-31",
+      "summary": "Maintained a number of internal libraries, lead the team toward a UI/UX redesign, acted as a point of contact with the team in Spain",
+      "highlights": ["iOS", "Swift", "Objective-C", "Mobile development"]
+    },
+    {
+      "name": "Dischan Media",
+      "position": "Software engineer",
+      "url": "https://dischan.co",
+      "startDate": "2012-10-01",
+      "endDate": "2013-01-31",
+      "summary": "Port a game engine from iOS to Android using LibGDX",
+      "highlights": ["Java", "LibGDX", "UX", "QA"]
+    },
+    {
+      "name": "Creative Studios",
+      "position": "Robotics teacher",
+      "url": "https://creative-studio.ch",
+      "startDate": "2010-08-09",
+      "endDate": "2010-09-16",
+      "summary": "Teach robotics for kids age 8-14, at a summer camp using the Lego Mindstorm and WeDo platform.",
+      "highlights": ["Lego", "Mindstorm", "Robotics", "Teaching"]
     }
   ],
   "education": [
@@ -113,6 +158,16 @@
       ]
     }
   ],
+  "volunteer": [{
+    "organization": "EPFL - Centre Roberta",
+    "position": "Volunteer",
+    "url": "https://www.epfl.ch/about/equality/",
+    "startDate": "2010-05-29",
+    "endDate": "2010-05-30",
+    "summary": "Teaching robotics using the LEGO mindstorm platform to kids between the age of 10 to 14",
+    "highlights": [
+    ]
+  }],
   "references": [
     {
       "name": "Professor Robert Atkey",
