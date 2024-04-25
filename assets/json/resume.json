@@ -19,7 +19,6 @@
       "summary": "Worked on a domain-specific language for contracts in Haskell",
       "highlights": ["Poly", "Dependent types", "Applied category theory"]
     },
-
     {
       "name": "EF Grant Contractor @ Cybercat",
       "position": "Functional programming consultant",
@@ -30,13 +29,22 @@
       "highlights": ["Haskell", "Compiler engineering", "Applied category theory"]
     },
     {
+      "name": "EF Grant Contractor @ Statebox",
+      "position": "Functional programming consultant",
+      "url": "https://cybercat.institute",
+      "startDate": "2021-01-01",
+      "endDate": "2021-07-31",
+      "summary": "Hired to deliver on the Ethereum Foundation grant to improve the developer experience of the Open Game Engine",
+      "highlights": ["Haskell", "Compiler engineering", "Applied category theory"]
+    },
+    {
       "name": "Statebox",
       "position": "Software engineer",
       "url": "https://statebox.org",
-      "startDate": "2018-04-01",
-      "endDate": "2019-01-31",
+      "startDate": "2019-04-01",
+      "endDate": "2020-01-31",
       "summary": "Maintained the Typedefs library and other internal tools",
-      "highlights": ["Haskell", "Compiler engineering", "Applied category theory"]
+      "highlights": ["Idris", "Purescript", "Applied category theory"]
     },
     {
       "name": "Bity SA",
@@ -44,7 +52,7 @@
       "url": "",
       "startDate": "2018-04-16",
       "endDate": "2018-12-31",
-      "summary": "Lead a small team to develop new microservices in Haskell to provide a formal method approach to banking services",
+      "summary": "Lead a small team to develop new microservices in Haskell to provide a formal method approach to banking services. Trained staff and interns on the new stack and developed processes and documentation for haskell development.",
       "highlights": ["Haskell", "Microservices", "Management"]
     },
     {
@@ -62,8 +70,8 @@
       "url": "https://www.sicpa.com",
       "startDate": "2016-10-01",
       "endDate": "2017-06-31",
-      "summary": "Maintained a number of internal libraries, lead the team toward a UI/UX redesign, acted as a point of contact with the team in Spain",
-      "highlights": ["iOS", "Swift", "Objective-C", "Mobile Development"]
+      "summary": "Maintained a number of internal libraries, lead the team toward a UI/UX redesign, acted as a point of contact with the team in Spain, developped B2B products, worked on embedded bluetooth systems.",
+      "highlights": ["iOS", "Swift", "Objective-C", "C", "Mobile Development"]
     },
     {
       "name": "Techspark Academy",
@@ -146,67 +154,6 @@
   ],
   "awards": [
   ],
-  "languages": [
-    {
-      "language": "French",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    },
-    {
-      "language": "Spanish",
-      "fluency": "Oral practice",
-      "icon": ""
-    },
-    {
-      "language": "japanese",
-      "fluency": "beginner",
-      "icon": ""
-    },
-    {
-      "language": "German",
-      "fluency": "beginner",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Infrastructure",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-          "Railway", "Transportation", "Housing", "Energy"
-      ]
-    },
-    {
-      "name": "Formal methods",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-          "Agda", "Idris"
-      ]
-    }
-  ],
-  "publications": [{
-      "name": "WITS",
-      "publisher": "ACM",
-      "releaseDate": "2024-01-20",
-      "url": "https://popl24.sigplan.org/home/wits-2024",
-      "summary": "Binders in dependently-typed programming are especially important due to types such as Σ : (a : Type) -> (a -> Type) -> Type and Π : (a : Type) -> (a -> Type) -> Type. This work-in-progress in the Idris compiler aims to bring the ergonomic benefits of custom binders brought by arbitrary syntax extension, while keeping the grammar fixed in order to provide bespoke quality error messages."
-
-  }],
-  "projects": [{
-    "name": "Talks",
-    "startDate": "2019-01-01",
-    "endDate": "",
-    "description": "Description...",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "url": "https://project.com/"
-  }],
   "volunteer": [{
     "organization": "Idris Developer Meeting",
     "position": "Organiser",
@@ -229,6 +176,7 @@
     "position": "Organiser",
     "url": "https://scottish-pl-institute.github.io/spls/",
     "startDate": "2021-05-30",
+    "endDate": "2021-05-30",
     "summary": "Organised SPLS online in 2021. Handled the programme, registration, speakers, moderation, social media, etc"
   },
   {
@@ -249,6 +197,64 @@
     "summary": "Teaching robotics using the LEGO mindstorm platform to kids between the age of 10 to 14",
     "highlights": []
   }],
+  "publications": [{
+      "name": "Customisable binder syntax for dependently-typed programming languages",
+      "publisher": "WITS",
+      "releaseDate": "2024-01-20",
+      "url": "https://popl24.sigplan.org/home/wits-2024",
+      "summary": "Binders in dependently-typed programming are especially important due to types such as Σ : (a : Type) -> (a -> Type) -> Type and Π : (a : Type) -> (a -> Type) -> Type. This work-in-progress in the Idris compiler aims to bring the ergonomic benefits of custom binders brought by arbitrary syntax extension, while keeping the grammar fixed in order to provide bespoke quality error messages."
+
+  },{
+      "name": "Lenses for Composable Servers",
+      "publisher": "Arxiv",
+      "releaseDate": "2022-03-29",
+      "url": "https://arxiv.org/abs/2203.15633",
+      "summary": "We implement the semantics of server operations using parameterised lenses. They allow us to define endpoints and extend them using classical lens composition. The parameterised nature of lenses models state updates while the lens laws mimic properties expected from HTTP. This first approach to server development is extended to use dependent parameterised lenses. An upgrade necessary to model not only endpoints, but entire servers, unlocking the ability to compose them together."
+  }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker",
+      "icon": "🇫🇷🇫🇷"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": "🇬🇧🇬🇧"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Oral practice",
+      "icon": "🇨🇱🇨🇱"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Beginner",
+      "icon": "🇯🇵🇯🇵"
+    },
+    {
+      "language": "German",
+      "fluency": "Beginner",
+      "icon": "🇩🇪🇩🇪"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Infrastructure",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+          "Railway", "Transportation", "Housing", "Energy"
+      ]
+    },
+    {
+      "name": "Formal methods",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+          "Agda", "Idris"
+      ]
+    }
+  ],
   "references": [
     {
       "name": "Professor Robert Atkey",
