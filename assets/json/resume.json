@@ -63,14 +63,32 @@
       "startDate": "2016-10-01",
       "endDate": "2017-06-31",
       "summary": "Maintained a number of internal libraries, lead the team toward a UI/UX redesign, acted as a point of contact with the team in Spain",
-      "highlights": ["iOS", "Swift", "Objective-C", "Mobile development"]
+      "highlights": ["iOS", "Swift", "Objective-C", "Mobile Development"]
+    },
+    {
+      "name": "Techspark Academy",
+      "position": "Computer Programming Teacher",
+      "url": "https://techsparkacademy.ch",
+      "startDate": "2016-07-01",
+      "endDate": "2016-07-31",
+      "summary": "Taught mobile-app developement for kids, ages 12-18 during a summer camp. We taught swift, basics concepts of variables, loops, recursion and graphic design.",
+      "highlights": ["iOS", "Swift", "Mobile Development", "Game Development"]
+    },
+    {
+      "name": "Kabotip",
+      "position": "Programming Intern",
+      "url": "https://kabotip.com",
+      "startDate": "2015-07-09",
+      "endDate": "2015-09-09",
+      "summary": "Worked on microservices for an online tipping platform.",
+      "highlights": ["Clojure", "Redis", "APNS"]
     },
     {
       "name": "Dischan Media",
       "position": "Software engineer",
       "url": "https://dischan.co",
-      "startDate": "2012-10-01",
-      "endDate": "2013-01-31",
+      "startDate": "2013-10-01",
+      "endDate": "2014-01-31",
       "summary": "Port a game engine from iOS to Android using LibGDX",
       "highlights": ["Java", "LibGDX", "UX", "QA"]
     },
@@ -92,7 +110,8 @@
       "area": "Computer Science",
       "studyType": "PhD",
       "startDate": "2020-10-01",
-      "endDate": "2024-09-30"
+      "endDate": "2024-09-30",
+      "courses": [ "Quantitative type theory", "Low level performance", "Server backends & API Design", "Category of Containers"]
     },
     {
       "institution": "University of St-Andrews, St-Andrews, Scotland",
@@ -101,7 +120,8 @@
       "area": "Computer Science",
       "studyType": "Masters by research",
       "startDate": "2019-10-01",
-      "endDate": "2020-09-30"
+      "endDate": "2020-09-30",
+      "courses": [ "Quantitative type theory", "Low level performance", "Programming patterns", "Compiler Benchmarks"]
     },
     {
       "institution": "Université de Franche Comté, Besançon, France",
@@ -110,7 +130,18 @@
       "area": "Computer Science",
       "studyType": "Licence en Informatique",
       "startDate": "2017-10-01",
-      "endDate": "2019-07-01"
+      "endDate": "2019-07-01",
+      "courses": [ "Logic", "Networking", "Basic Programming"]
+    },
+    {
+      "institution": "EPFL",
+      "location": "Lausanne, Switzerland",
+      "url": "https://www.epfl.ch",
+      "area": "Computer Science (Not graduated)",
+      "studyType": "Bachelor en Informatique",
+      "startDate": "2012-10-01",
+      "endDate": "2016-07-01",
+      "courses": [ "Computer architecture", "Functional Programming", "Software engineering", "Compiler construction"]
     }
   ],
   "awards": [
@@ -158,15 +189,65 @@
       ]
     }
   ],
+  "publications": [{
+      "name": "WITS",
+      "publisher": "ACM",
+      "releaseDate": "2024-01-20",
+      "url": "https://popl24.sigplan.org/home/wits-2024",
+      "summary": "Binders in dependently-typed programming are especially important due to types such as Σ : (a : Type) -> (a -> Type) -> Type and Π : (a : Type) -> (a -> Type) -> Type. This work-in-progress in the Idris compiler aims to bring the ergonomic benefits of custom binders brought by arbitrary syntax extension, while keeping the grammar fixed in order to provide bespoke quality error messages."
+
+  }],
+  "projects": [{
+    "name": "Talks",
+    "startDate": "2019-01-01",
+    "endDate": "",
+    "description": "Description...",
+    "highlights": [
+      "Won award at AIHacks 2016"
+    ],
+    "url": "https://project.com/"
+  }],
   "volunteer": [{
+    "organization": "Idris Developer Meeting",
+    "position": "Organiser",
+    "url": "https://www.idris-lang.org",
+    "startDate": "2021-12-01",
+    "endDate": "2023-09-01",
+    "summary": "Managed and organised the Idris developer meetings. Coordinated participants online, setup schedules, talks and events, handled social media and announcements, coordinated with aborad university for international collaboration, etc.",
+    "highlights": ["Idris developer meeting Aug 2023 (Zurich)","Idris developer meeting Dec 2022 (St-Andrews)", "Idris developer meeting May 2022 (Online)", "Idris developer meeting Dec 2021 (Online)", "Idris Community talks (Online)"]
+  },
+  {
+    "organization": "SPLI",
+    "position": "Student representative",
+    "url": "https://scottish-pl-institute.github.io",
+    "startDate": "2022-10-01",
+    "summary": "Strathclyde Student representative for SPLI, an organisation aimed at bringing together students and institutions across scotland.",
+    "highlights": ["SPLI PhD Induction 2022"]
+  },
+  {
+    "organization": "SPLS",
+    "position": "Organiser",
+    "url": "https://scottish-pl-institute.github.io/spls/",
+    "startDate": "2021-05-30",
+    "summary": "Organised SPLS online in 2021. Handled the programme, registration, speakers, moderation, social media, etc"
+  },
+  {
+    "organization": "NPL, PGI",
+    "position": "Student Ambassador",
+    "url": "https://www.npl.co.uk/pgi",
+    "startDate": "2021-11-01",
+    "endDate": "2022-12-31",
+    "summary": "Helped organise in-person and online events, designed new processes for knowledge management and transfer",
+    "highlights": []
+  },
+  {
     "organization": "EPFL - Centre Roberta",
-    "position": "Volunteer",
+    "position": "Presenter",
     "url": "https://www.epfl.ch/about/equality/",
     "startDate": "2010-05-29",
     "endDate": "2010-05-30",
     "summary": "Teaching robotics using the LEGO mindstorm platform to kids between the age of 10 to 14",
-    "highlights": [
-    ]
+    "highlights": []
   }],
   "references": [
     {
@@ -180,4 +261,5 @@
       "reference": "Long term collaborator"
     }
   ]
+
 }
