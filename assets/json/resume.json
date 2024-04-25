@@ -16,8 +16,8 @@
       "url": "https://www.be.exchange",
       "startDate": "2022-04-04",
       "endDate": "2023-07-31",
-      "summary": "Worked on a domain-specific language for contracts in Haskell",
-      "highlights": ["Poly", "Dependent types", "Applied category theory"]
+      "summary": "Worked on a domain-specific language for contracts in Haskell inspired by Poly, the category of polynomial functors.",
+      "highlights": ["Compiler engineering", "Dependent types", "Applied category theory"]
     },
     {
       "name": "EF Grant Contractor @ Cybercat",
@@ -25,7 +25,7 @@
       "url": "https://cybercat.institute",
       "startDate": "2023-01-01",
       "endDate": "2023-12-31",
-      "summary": "Worked on the integration between the OpenGame Engine and Ethereum's HEVM library and ACT programming language",
+      "summary": "Worked on the integration between the OpenGame Engine and Ethereum's HEVM library and ACT programming language.",
       "highlights": ["Haskell", "Compiler engineering", "Applied category theory"]
     },
     {
@@ -34,7 +34,7 @@
       "url": "https://cybercat.institute",
       "startDate": "2021-01-01",
       "endDate": "2021-07-31",
-      "summary": "Hired to deliver on the Ethereum Foundation grant to improve the developer experience of the Open Game Engine",
+      "summary": "Hired to deliver on the Ethereum Foundation grant to improve the developer experience of the Open Game Engine. Wrote the front end parser, the template haskell backend and provided support for better error messages.",
       "highlights": ["Haskell", "Compiler engineering", "Applied category theory"]
     },
     {
@@ -43,7 +43,7 @@
       "url": "https://statebox.org",
       "startDate": "2019-04-01",
       "endDate": "2020-01-31",
-      "summary": "Maintained the Typedefs library and other internal tools",
+      "summary": "Maintainer for Typedefs, a programming language to describe types and generate serialisers and deserialisers for multiple languages. Author of multibase and multihash for Idris, collaborated on idris-ct, a library for category theory in Idris.",
       "highlights": ["Idris", "Purescript", "Applied category theory"]
     },
     {
@@ -61,7 +61,7 @@
       "url": "",
       "startDate": "2017-10-01",
       "endDate": "2018-03-30",
-      "summary": "Worked as a consultant for private customers on iOS mobile applications. During that time I specialised in delivery and service apps like Uber clones",
+      "summary": "Worked as a consultant for private customers on iOS mobile applications. During that time I specialised in delivery and service apps like Uber clones.",
       "highlights": ["iOS", "Swift", "Objective-C", "Mobile development"]
     },
     {
@@ -97,7 +97,7 @@
       "url": "https://dischan.co",
       "startDate": "2013-10-01",
       "endDate": "2014-01-31",
-      "summary": "Port a game engine from iOS to Android using LibGDX",
+      "summary": "Port a game engine from iOS to Android using LibGDX.",
       "highlights": ["Java", "LibGDX", "UX", "QA"]
     },
     {
@@ -186,6 +186,15 @@
     "startDate": "2021-11-01",
     "endDate": "2022-12-31",
     "summary": "Helped organise in-person and online events, designed new processes for knowledge management and transfer",
+    "highlights": []
+  },
+  {
+    "organization": "EPFL",
+    "position": "Class representative",
+    "url": "https://www.epfl.ch/",
+    "startDate": "2012-10-01",
+    "endDate": "2012-07-31",
+    "summary": "Class representative of the first years computer science class in 2012. Represented a cohort of 250 students, engaged in collaboration with the school's direction and AGEPoly",
     "highlights": []
   },
   {
