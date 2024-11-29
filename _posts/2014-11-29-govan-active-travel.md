@@ -23,28 +23,30 @@ This is achieved by creating a large pedestrian-only space at the core of Govan 
 - Orange is the resident traffic access for motor vehicles
 - Red is the through traffic for motor vehicles
 
-![[Pasted image 20241126203917.jpg]]
+{% include figure.liquid path="assets/img/govan-overview.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-This layout provides 4 opportunities for place-making, from west to east:
+This layout provides 4 opportunities for place-making, from east to west:
 
-### The West Intersection Between Golspie St and Govan Rd
-
-Today, this intersection is a source of traffic delay, pedestrian confusion, and unsatisfactory road maintenance. It is clear that this intersection has failed to serve the local community. The proposal is to remove the intersection entirely, and employ the additional space for a plaza that would bring foot traffic to the surrounding businesses, and create a space for children and families to enjoy. The space could also host some food trucks to serve the workers of the area and markets for the residents on the weekend.
-
-### The Area in Front of the Lyceum
-
-The Lyceum building is of great importance to the community, as the current plans to reclaim it can attest, and it is paramount that its surroundings reflect that. Today, the intersection in front of the lyceum building entirely yields to through traffic, ensuring that the perception of the lyceum building remains that of a curiosity on the side of the road rather than a place to be celebrated by the local community. Future plans should ensure that the area in front of the Lyceum building is a place for people. And is starts with creating that space for the people.
-
-### The Area in Front of the Pierce Institute
-
-The Pierce Institute is an important community hub in Govan, but as of right now, it is only directly accessible by 4 parking spots in front of it. Pedestrian access is difficult due to the high speed at which vehicles traverse Govan Rd, and cycle access is non-existent. 
-Pedestrianising the street ensures easy access from the subway station. It also creates a plaza where both the Pierce Institute and the William Pierce statue can stand on uninterrupted grounds. Finally, the place provides dignified access to the Old Govan Church, a building whose historical importance has been too long neglected. 
 
 ### The Area Between Govan Subway Station and the New Bridge
 
 The opening of the bridge towards Partick and the Riverside Museum is a great opportunity to revise the way visitors are expected to access it. As of today, once a visitor exits the subway station, they have to cross a busy road, often littered with parked cars, hindering visibility, to reach Water Row and cross the bridge. What is more, the space taken by the road prevents any future businesses from developing by capitalising on the additional foot traffic.
 
 Restricting access to vehicles between the station and water row greatly facilitates access to the bridge for people with mobility difficulties and creates an additional space for the community. Vehicle access to Water Row for residents, deliveries, and visitors is guaranteed by Burleigh St, which itself would become accessible via Golspie St.
+
+
+### The Area in Front of the Pierce Institute
+
+The Pierce Institute is an important community hub in Govan, but as of right now, it is only directly accessible by 4 parking spots in front of it. Pedestrian access is difficult due to the high speed at which vehicles traverse Govan Rd, and cycle access is non-existent. 
+Pedestrianising the street ensures easy access from the subway station. It also creates a plaza where both the Pierce Institute and the William Pierce statue can stand on uninterrupted grounds. Finally, the place provides dignified access to the Old Govan Church, a building whose historical importance has been too long neglected. 
+
+### The Area in Front of the Lyceum
+
+The Lyceum building is of great importance to the community, as the current plans to reclaim it can attest, and it is paramount that its surroundings reflect that. Today, the intersection in front of the lyceum building entirely yields to through traffic, ensuring that the perception of the lyceum building remains that of a curiosity on the side of the road rather than a place to be celebrated by the local community. Future plans should ensure that the area in front of the Lyceum building is a place for people. And is starts with creating that space for the people.
+
+### The West Intersection Between Golspie St and Govan Rd
+
+Today, this intersection is a source of traffic delay, pedestrian confusion, and unsatisfactory road maintenance. It is clear that this intersection has failed to serve the local community. The proposal is to remove the intersection entirely, and employ the additional space for a plaza that would bring foot traffic to the surrounding businesses, and create a space for children and families to enjoy. The space could also host some food trucks to serve the workers of the area and markets for the residents on the weekend.
 
 ### A Note About Bus Access
 
@@ -57,7 +59,7 @@ This section provides detailed changes to the proposed design in the form of edi
 
 The plan to pedestrianise Govan creates multiple opportunities for people and businesses to use the space freely. It also fluidifies vehicle traffic by directing through traffic via Golspie St and removing traffic lights and sources of road conflict.
 
-![[Pasted image 20241128172751.jpg]]
+{% include figure.liquid path="assets/img/Govan-east.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 #### East access to Govan Rd
 
@@ -73,7 +75,8 @@ With the pedestrianisation of most of the town center, access to businesses, poi
 
 Govan connects to its historical roots as a ship building neighborhood, but the current street layout makes accessing this history difficult and unpleasant. The core of the proposed layout is to provide a new public space obtained by removing the intersection with Golspie St and diverting through traffic away from the centre.
 
-![[Pasted image 20241126205358.png]]
+{% include figure.liquid path="assets/img/Govan-west.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+
 
 #### Govan Rd West Intersection with Golspie St
 
@@ -90,7 +93,7 @@ The change is simple: move the lane to the south of the road so that cyclists ca
 
 The final section of this feedback document concerns the Linthouse neighborhood and its connection to Govan Rd. The original design removes a much-needed bus lane, this proposal reinstates the bus land and explains how to make the south bike lane around Elder Park connect with the interchange.
 
-![[Pasted image 20241126210033.png]]
+{% include figure.liquid path="assets/img/linthouse.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 #### North West of Elder Park
 
@@ -112,7 +115,7 @@ One of the issues with 2-way cycle lanes, is that access to the points of intere
 
 Those three situations are illustrated in the image that follows:
 
-![[Pasted image 20241126190001.jpg]]
+{% include figure.liquid path="assets/img/2-way-cycle-lanes.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 In the first scenario, the cyclist will encounter 3 sources of conflict: Incoming cycle traffic, and two lanes of vehicle traffic. This is in the best-case scenario where there is no parking and only two car lanes. This outcome is the most direct and the most dangerous, failing to protect cyclists from motor vehicle traffic.
 
