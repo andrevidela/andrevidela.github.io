@@ -6,10 +6,17 @@
     "email": "andre.videla@strath.ac.uk",
     "url": "https://andrevidela.com",
     "summary": "A programmer using applied category theory",
-    "profiles": [
-    ]
+    "profiles": []
   },
   "work": [
+    {
+      "name": "Glasgow Lab for AI Verification",
+      "position": "Director & Scientist",
+      "url": "https://glaive-research.org",
+      "startDate": "2024-09-01",
+      "summary": "Work on programing languages for category theory, programming models for software engineering, and mathematical frameworks for AI Safety",
+      "highlights": ["Compiler engineering", "Dependent types", "Applied category theory"]
+    },
     {
       "name": "Contractor @ Begroup",
       "position": "Functional programming consultant",
@@ -119,7 +126,7 @@
       "studyType": "PhD",
       "startDate": "2020-10-01",
       "endDate": "2024-09-30",
-      "courses": [ "Quantitative type theory", "Low level performance", "Server backends & API Design", "Category of Containers"]
+      "courses": ["Quantitative type theory", "Low level performance", "Server backends & API Design", "Category of Containers"]
     },
     {
       "institution": "University of St-Andrews, St-Andrews, Scotland",
@@ -129,7 +136,7 @@
       "studyType": "Masters by research",
       "startDate": "2019-10-01",
       "endDate": "2020-09-30",
-      "courses": [ "Quantitative type theory", "Low level performance", "Programming patterns", "Compiler Benchmarks"]
+      "courses": ["Quantitative type theory", "Low level performance", "Programming patterns", "Compiler Benchmarks"]
     },
     {
       "institution": "Université de Franche Comté, Besançon, France",
@@ -139,7 +146,7 @@
       "studyType": "Licence en Informatique",
       "startDate": "2017-10-01",
       "endDate": "2019-07-01",
-      "courses": [ "Logic" ]
+      "courses": ["Logic"]
     },
     {
       "institution": "EPFL",
@@ -149,77 +156,86 @@
       "studyType": "Bachelor en Informatique",
       "startDate": "2012-10-01",
       "endDate": "2016-07-01",
-      "courses": [ "Computer architecture", "Functional Programming", "Software engineering", "Compiler construction"]
+      "courses": ["Computer architecture", "Functional Programming", "Software engineering", "Compiler construction"]
     }
   ],
-  "awards": [
+  "awards": [],
+  "volunteer": [
+    {
+      "organization": "Idris Developer Meeting",
+      "position": "Organiser",
+      "url": "https://www.idris-lang.org",
+      "startDate": "2021-12-01",
+      "endDate": "2023-09-01",
+      "summary": "Managed and organised the Idris developer meetings. Coordinated participants online, setup schedules, talks and events, handled social media and announcements, coordinated with aborad university for international collaboration, etc.",
+      "highlights": [
+        "Idris developer meeting Aug 2023 (Zurich)",
+        "Idris developer meeting Dec 2022 (St-Andrews)",
+        "Idris developer meeting May 2022 (Online)",
+        "Idris developer meeting Dec 2021 (Online)",
+        "Idris Community talks (Online)"
+      ]
+    },
+    {
+      "organization": "SPLI",
+      "position": "Student representative",
+      "url": "https://scottish-pl-institute.github.io",
+      "startDate": "2022-10-01",
+      "endDate": "2024-08-31",
+      "summary": "Strathclyde Student representative for SPLI, an organisation aimed at bringing together students and institutions across scotland.",
+      "highlights": ["SPLI PhD Induction 2022"]
+    },
+    {
+      "organization": "SPLS",
+      "position": "Organiser",
+      "url": "https://scottish-pl-institute.github.io/spls/",
+      "startDate": "2021-05-30",
+      "endDate": "2021-05-30",
+      "summary": "Organised SPLS online in 2021. Handled the programme, registration, speakers, moderation, social media, etc"
+    },
+    {
+      "organization": "NPL, PGI",
+      "position": "Student Ambassador",
+      "url": "https://www.npl.co.uk/pgi",
+      "startDate": "2021-11-01",
+      "endDate": "2022-12-31",
+      "summary": "Helped organise in-person and online events, designed new processes for knowledge management and transfer",
+      "highlights": []
+    },
+    {
+      "organization": "EPFL",
+      "position": "Class representative",
+      "url": "https://www.epfl.ch/",
+      "startDate": "2012-10-01",
+      "endDate": "2012-07-31",
+      "summary": "Class representative of the first years computer science class in 2012. Represented a cohort of 250 students, engaged in collaboration with the school's direction and AGEPoly",
+      "highlights": []
+    },
+    {
+      "organization": "EPFL - Centre Roberta",
+      "position": "Presenter",
+      "url": "https://www.epfl.ch/about/equality/",
+      "startDate": "2010-05-29",
+      "endDate": "2010-05-30",
+      "summary": "Teaching robotics using the LEGO mindstorm platform to kids between the age of 10 to 14",
+      "highlights": []
+    }
   ],
-  "volunteer": [{
-    "organization": "Idris Developer Meeting",
-    "position": "Organiser",
-    "url": "https://www.idris-lang.org",
-    "startDate": "2021-12-01",
-    "endDate": "2023-09-01",
-    "summary": "Managed and organised the Idris developer meetings. Coordinated participants online, setup schedules, talks and events, handled social media and announcements, coordinated with aborad university for international collaboration, etc.",
-    "highlights": ["Idris developer meeting Aug 2023 (Zurich)","Idris developer meeting Dec 2022 (St-Andrews)", "Idris developer meeting May 2022 (Online)", "Idris developer meeting Dec 2021 (Online)", "Idris Community talks (Online)"]
-  },
-  {
-    "organization": "SPLI",
-    "position": "Student representative",
-    "url": "https://scottish-pl-institute.github.io",
-    "startDate": "2022-10-01",
-    "summary": "Strathclyde Student representative for SPLI, an organisation aimed at bringing together students and institutions across scotland.",
-    "highlights": ["SPLI PhD Induction 2022"]
-  },
-  {
-    "organization": "SPLS",
-    "position": "Organiser",
-    "url": "https://scottish-pl-institute.github.io/spls/",
-    "startDate": "2021-05-30",
-    "endDate": "2021-05-30",
-    "summary": "Organised SPLS online in 2021. Handled the programme, registration, speakers, moderation, social media, etc"
-  },
-  {
-    "organization": "NPL, PGI",
-    "position": "Student Ambassador",
-    "url": "https://www.npl.co.uk/pgi",
-    "startDate": "2021-11-01",
-    "endDate": "2022-12-31",
-    "summary": "Helped organise in-person and online events, designed new processes for knowledge management and transfer",
-    "highlights": []
-  },
-  {
-    "organization": "EPFL",
-    "position": "Class representative",
-    "url": "https://www.epfl.ch/",
-    "startDate": "2012-10-01",
-    "endDate": "2012-07-31",
-    "summary": "Class representative of the first years computer science class in 2012. Represented a cohort of 250 students, engaged in collaboration with the school's direction and AGEPoly",
-    "highlights": []
-  },
-  {
-    "organization": "EPFL - Centre Roberta",
-    "position": "Presenter",
-    "url": "https://www.epfl.ch/about/equality/",
-    "startDate": "2010-05-29",
-    "endDate": "2010-05-30",
-    "summary": "Teaching robotics using the LEGO mindstorm platform to kids between the age of 10 to 14",
-    "highlights": []
-  }],
-  "publications": [{
+  "publications": [
+    {
       "name": "Customisable binder syntax for dependently-typed programming languages",
       "publisher": "WITS",
       "releaseDate": "2024-01-20",
       "url": "https://popl24.sigplan.org/home/wits-2024",
       "summary": "Binders in dependently-typed programming are especially important due to types such as Σ : (a : Type) -> (a -> Type) -> Type and Π : (a : Type) -> (a -> Type) -> Type. This work-in-progress in the Idris compiler aims to bring the ergonomic benefits of custom binders brought by arbitrary syntax extension, while keeping the grammar fixed in order to provide bespoke quality error messages."
-
-  },{
+    },
+    {
       "name": "Lenses for Composable Servers",
       "publisher": "Arxiv",
       "releaseDate": "2022-03-29",
       "url": "https://arxiv.org/abs/2203.15633",
       "summary": "We implement the semantics of server operations using parameterised lenses. They allow us to define endpoints and extend them using classical lens composition. The parameterised nature of lenses models state updates while the lens laws mimic properties expected from HTTP. This first approach to server development is extended to use dependent parameterised lenses. An upgrade necessary to model not only endpoints, but entire servers, unlocking the ability to compose them together."
-  }
+    }
   ],
   "languages": [
     {
@@ -252,16 +268,12 @@
     {
       "name": "Infrastructure",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-          "Railway", "Transportation", "Housing", "Energy"
-      ]
+      "keywords": ["Railway", "Transportation", "Housing", "Energy"]
     },
     {
       "name": "Formal methods",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-          "Agda", "Idris"
-      ]
+      "keywords": ["Agda", "Idris"]
     }
   ],
   "references": [
@@ -276,5 +288,4 @@
       "reference": "Long term collaborator"
     }
   ]
-
 }

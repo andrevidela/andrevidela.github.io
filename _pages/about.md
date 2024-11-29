@@ -26,4 +26,3 @@ You can find me on discord (identity5193) and mastodon [@andrev@types.pl](https:
 - My PhD Thesis is about [_Monadic programming in the category of containers_](https://gitlab.com/avidela/container-compendium)
 - I'm interested in the ergonomics and the semantics of programming, in particular [servers backends](https://arxiv.org/abs/2203.15633),
   data description languages, and [compilers](https://cybercat.institute/2024/04/08/modular-error-reporting/)
-

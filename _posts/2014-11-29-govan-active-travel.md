@@ -27,18 +27,16 @@ This is achieved by creating a large pedestrian-only space at the core of Govan 
 
 This layout provides 4 opportunities for place-making, from east to west:
 
-
 ### The Area Between Govan Subway Station and the New Bridge
 
 The opening of the bridge towards Partick and the Riverside Museum is a great opportunity to revise the way visitors are expected to access it. As of today, once a visitor exits the subway station, they have to cross a busy road, often littered with parked cars, hindering visibility, to reach Water Row and cross the bridge. What is more, the space taken by the road prevents any future businesses from developing by capitalising on the additional foot traffic.
 
 Restricting access to vehicles between the station and water row greatly facilitates access to the bridge for people with mobility difficulties and creates an additional space for the community. Vehicle access to Water Row for residents, deliveries, and visitors is guaranteed by Burleigh St, which itself would become accessible via Golspie St.
 
-
 ### The Area in Front of the Pierce Institute
 
-The Pierce Institute is an important community hub in Govan, but as of right now, it is only directly accessible by 4 parking spots in front of it. Pedestrian access is difficult due to the high speed at which vehicles traverse Govan Rd, and cycle access is non-existent. 
-Pedestrianising the street ensures easy access from the subway station. It also creates a plaza where both the Pierce Institute and the William Pierce statue can stand on uninterrupted grounds. Finally, the place provides dignified access to the Old Govan Church, a building whose historical importance has been too long neglected. 
+The Pierce Institute is an important community hub in Govan, but as of right now, it is only directly accessible by 4 parking spots in front of it. Pedestrian access is difficult due to the high speed at which vehicles traverse Govan Rd, and cycle access is non-existent.
+Pedestrianising the street ensures easy access from the subway station. It also creates a plaza where both the Pierce Institute and the William Pierce statue can stand on uninterrupted grounds. Finally, the place provides dignified access to the Old Govan Church, a building whose historical importance has been too long neglected.
 
 ### The Area in Front of the Lyceum
 
@@ -55,7 +53,7 @@ Finally, access to Govan Rd is not significantly hampered since the bus stops at
 
 ## Part 2: Detailed Plans
 
-This section provides detailed changes to the proposed design in the form of edited plans. These changes explain how the above design goals can be achieved in practice. There are three plans tracing  
+This section provides detailed changes to the proposed design in the form of edited plans. These changes explain how the above design goals can be achieved in practice. There are three plans tracing
 
 The plan to pedestrianise Govan creates multiple opportunities for people and businesses to use the space freely. It also fluidifies vehicle traffic by directing through traffic via Golspie St and removing traffic lights and sources of road conflict.
 
@@ -77,7 +75,6 @@ Govan connects to its historical roots as a ship building neighborhood, but the 
 
 {% include figure.liquid path="assets/img/Govan-west.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-
 #### Govan Rd West Intersection with Golspie St
 
 This intersection, as of today, is unsatisfactory. The traffic signals create delays, the layout does not leave any room for cyclists or pedestrians, access to businesses is limited, and access to the fairfield museum is unpleasant by foot from the station due to the amount of noise and polluting traffic at the intersection.
@@ -89,7 +86,6 @@ To address those shortcomings, the proposed design removes the intersection alto
 The change is simple: move the lane to the south of the road so that cyclists can access the park without endangering themselves, or endangering pedestrians.
 
 ### Govan Rd and Linthouse
-
 
 The final section of this feedback document concerns the Linthouse neighborhood and its connection to Govan Rd. The original design removes a much-needed bus lane, this proposal reinstates the bus land and explains how to make the south bike lane around Elder Park connect with the interchange.
 
@@ -104,13 +100,12 @@ The large intersection at the northwest of Elder Park is notoriously difficult t
 Further west, the bike lane merges with the bus lane for the duration of the bridge and the next block. This is due to space constraints on this specific stretch of the street, keeping the bus lane is of utmost importance given its connection to QEUH. The bike layout around Burghead Pl and Peninver Dr remains the same, with added traffic calming in the form of parking space allocated on alternating sides of the road.
 The bus lane is extended all the way to the intersection of Govan Rd With Moss Rd, again to avoid delays incurred by private vehicles when reaching the hospital.
 
-
 ## General concern about 2-way bike lanes
 
 One of the issues with 2-way cycle lanes, is that access to the points of interest are guaranteed only from one side of the road. If a cyclist wishes to access a business, or a building, across their designated cycle lane they have three choices, all of which are bad:
 
 - Cross the road through oncoming traffic on both sides
-- Cycle until reaching a crossing, cross and join the car lane on the opposite direction 
+- Cycle until reaching a crossing, cross and join the car lane on the opposite direction
 - Cycle until reaching a crossing, cross, and join the pedestrian pavement.
 
 Those three situations are illustrated in the image that follows:
@@ -127,4 +122,4 @@ In conclusion, 2-way cycle lanes excel when all the points of interest are gathe
 
 ## Conclusion
 
-Thank you for your time and for your work. I am optimistic that the changes to come in Govan are for the better, and I hope that this piece of feedback can help the area reach its potential as a historically important part of Glasgow and as a centre for cultural activities. 
+Thank you for your time and for your work. I am optimistic that the changes to come in Govan are for the better, and I hope that this piece of feedback can help the area reach its potential as a historically important part of Glasgow and as a centre for cultural activities.

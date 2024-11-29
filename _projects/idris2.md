@@ -21,4 +21,3 @@ Some of my most visible contributions are in the surface of the language:
 - Raw strings
 - Binding operators
 - Namespaced fixities
-
