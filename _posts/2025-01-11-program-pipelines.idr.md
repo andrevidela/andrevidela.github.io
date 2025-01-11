@@ -29,7 +29,7 @@ Sometimes, writing a large program is conceptually as simple as translating from
 
 ## Introducing the pipeline
 
-{% include figure.liquid path="assets/img/pipeline_illust_mid.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="assets/img/pipeline_illust_mid.PNG" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">
     An illustration of a pipeline with 4 layers and 3 stages.
 </div>
