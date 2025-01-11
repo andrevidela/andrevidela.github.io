@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Pipelined Programs Using Dependent Types
+title: Programing Pipelines Using Dependent Types
 date: 2025-01-11 14:57:00
-description: A data structure to represent programming pipelines
-tags: dependent-types idris programming pipeline
+description: "Sometimes, writing a large program is conceptually as simple as translating from a big unstructured input into a more and more structured output. In this post, we present a data structure to talk about such programs and demonstrate its use and flexbility using a single-pass compiler as case-study."
+tags: dependent-types idris programming software-engineering
 featured: true
 ---
 <!-- idris
@@ -47,7 +47,7 @@ compiler = codegen . typecheck . parsing . lexing
 ```
 
 Of course this is pure fantasy, there is no error reporting, no way to debug it, and no command line tool. But the core idea is compelling: what if there was a way to implement a compiler as a single pipeline of operation that clearly describes what each step achieves?
-For this, we're going to define _pipelined programs_ using Idris, because it uses dependent types, and it is reasonably fast and production ready. We define a _pipeline_ as a list of _Types_, each type represents an intermediate stage.
+For this, we're going to define _pipelined programs_ using Idris, because it uses dependent types, and it is reasonably fast and production ready. We define a _pipeline_ as a list of _Types_, each type represents an intermediate layer.
 
 ```idris
 Pipeline : Nat -> Type
@@ -65,7 +65,7 @@ CompilerPipeline =
 
 With it, we define a _compiler pipeline_ as the list of types `String`, `List Token`, `Tree`, `Sema`, and `String`, representing all the stages of our compiler.
 
-The pipeline is indexed by it length to ensure that our pipeline is valid, since we need a type from which we start, and a type to which we arrive. Using this fact we can define the _implementation_ for a pipeline.
+The pipeline is indexed by it length, to ensure that our pipeline is valid this length needs to be at least 2, since we need a type from which we start, and a type to which we arrive. Using this fact we can define the _implementation_ for a pipeline.
 
 ```idris
 -- Well formed pipelines have at least 2 elements, the start and the end type
@@ -81,7 +81,7 @@ We can test our implementation by asking in the REPL what is a valid implementat
 < (String -> List Token, (List Token -> Tree, (Tree -> Sema, Sema -> String)))
 ```
 
-This is a 4-tuples of functions `String -> List Token`, `List Token -> Tree`, `Tree -> Sema` and `Sema -> String`, exactly what we wanted.
+This is a 4-tuple of functions `String -> List Token`, `List Token -> Tree`, `Tree -> Sema` and `Sema -> String`, exactly what we wanted, each of those function represents a stage in our compiler.
 
 Now that `Impl` correctly gives us the type of an appropriate implementation for a pipeline, we still need to _run_ the pipeline. Running the pipeline should amount to using function composition on each of the functions. Unfortunately it's not that easy because each intermediate step uses a different type and we can't just blindly apply a function without knowing its type.
 
@@ -92,11 +92,13 @@ Like before, to run a `Pipeline`, it needs at least two elements. Running a pipe
 -- that is, the first stage of the pipeline as the argument of the function and the
 -- last stage as the result of it.
 Run : (p : Pipeline (2 + n)) -> Impl p -> head p -> last p
+-- In the base case, the pipeline contains only one stage x -> y so we return it
 Run [x, y] f = f
+-- In the inductive case, we compose `f` with the rest of the pipeline
 Run (s :: t :: x :: xs) (f, cont) = Run (t :: x :: xs) cont . f
 ```
 
-The base case runs the single stage we have with the argument we're given. The inductive case run the remaining of the pipeline on the result of the stage we are on right now `f` is the stage and `v` is the value given as argument to the pipeline.
+The base case runs the single stage we have with the argument we're given. The inductive case run the remaining of the pipeline after running the current stage represented by the function `f`.
 
 We can test this idea by assuming we have functions `lex`, `parse`, `typecheck` and `codegen` like in the haskell example and see what happens:
 
@@ -139,8 +141,8 @@ Like before, we now test `ImplM` in the repl with a monad `Maybe` and we get:
 < (String -> Maybe (List Token), (List Token -> Maybe Tree, (Tree -> Maybe Sema, Sema -> Maybe String)))
 ```
 
-And that is precisely what we expected, now every stage runs in a `Maybe` monad, and we could replace this monad by anything else and obtain all sorts of effects.
-Now remains to run a pipeline with effects using our effectful implementation. The type looks like `Run` but we make use of _kleisli_ composition instead of function composition.
+Now every stage runs in a `Maybe` monad, and we could replace this monad by anything else and obtain all sorts of effects.
+It remains to run a pipeline with effects using our effectful implementation. We implement a function just like `Run` but we make use of _kleisli_ composition instead of function composition.
 
 ```idris
   RunM : (mon : Monad m) => (p : Pipeline (2 + n)) -> ImplM p -> Vect.head p -> m (Vect.last p)
@@ -176,7 +178,9 @@ RunTraceM (x :: y :: z :: xs) {print = p :: q :: ps} (f, c) =
   f >=> pure . traceValBy show >=> RunTraceM (y :: z :: xs) c
 ```
 
+Calling our pipeline with `RunTraceM` will print out every intermediate value produced by the pipeline, It won't print the first argument given to it but since we already have it, we can print it when we call the pipeline.
+
 ## Conclusion
 
-We're not done yet but this is already more than we can usually do without dependent types. We can take the pipeline and build multiple runtimes for it. I've not shown it here but we can also implement operations on the pipeline like concatenation, splicing, etc. Those operations should reflect what happens at runtime: Concatenating two pipeline should compose two programs that run them. There is a lot more to say about this topic but that will do for now, see you in the next one.
+There is much more to say about this but is already more than we can usually do without dependent types. We can take the pipeline and build multiple runtimes for it, and run it in multiple modes as well. I've not shown it here but we can also implement operations on the pipeline like concatenation, splicing, etc. Those operations should reflect what happens at runtime: Concatenating two pipeline should compose two programs that run them. This framework can be extended in many other ways but that will serve as a solid base for now, see you in the next one.
 
