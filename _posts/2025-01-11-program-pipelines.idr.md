@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Programing Pipelines Using Dependent Types
-date: 2025-01-11 14:57:00
-description: "Sometimes, writing a large program is conceptually as simple as translating from a big unstructured input into a more and more structured output. In this post, we present a data structure to talk about such programs and demonstrate its use and flexbility using a single-pass compiler as case-study."
-tags: dependent-types idris programming software-engineering
+title: "Pipelines Part 2: Categorical Pipelines"
+author: Andre Videla
+date: 2025-03-07
+tags: "Category Theory" "Dependent Lenses" "Dependent types" Idris Compiler
+description: "Programming large complex software requires the right abstractions to make the work as easy as possible. Pipelines help writing programs by leveraging dependent types, but we can do better. By abstracting over the category in which we work, we can implement pipelines for effectful programs, bidirectional programs using dependent lenses, and even graded programs."
 featured: true
 ---
 <!-- idris
