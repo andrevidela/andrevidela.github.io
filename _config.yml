@@ -126,7 +126,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: André Videla # blog_name will be displayed in your blog page
-blog_description: Rumaging bits
+blog_description: Thoughts and Programs
 permalink: /blog/:year/:title/
 
 # Pagination
