@@ -4,7 +4,7 @@ title: Govan Active Travel
 date: 2024-11-29 04:14:00
 description: A new proposal for Govan Active Travel strategy
 tags: pedestrian space place-making cycle lane bike
-featured: true
+featured: false
 ---
 
 This is a report building on the designs provided by the [connecting greater govan project](https://storymaps.arcgis.com/collections/c390337efca64158b725c0c99bf61f12) to facilitate active travel through the Govan area and develop it economically and culturally.
