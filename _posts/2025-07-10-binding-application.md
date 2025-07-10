@@ -21,8 +21,7 @@ Binding syntax and binding-application is an idea I had a couple of years ago an
 It's a syntactic feature piggybacking on the function-space of a dependent programming language that
 offers some customisation to the notion of _binding_. The main use case is to facilitate writing types such as
 $$\Pi$$ or $$\Sigma$$ where the second argument is a function dependent on the type given in the first
-argument. This way, a function $$\Sigma (a : Type) . f(a)$$ is equivalent to
-$$\Sigma\ Type\ (\lambda a . f (a))$$. In Idris, on can mark such functions as `typebind` because they are meant
+argument. In Idris, one can mark such functions as `typebind` because they are meant
 to bind a type argument, and any such function written `f (x : t) | g x` desugars to
 `f t (\x : Type => g x)` This pattern can be generalised to any function with a trailing lambda where
 the second argument does not necessarily depend on the first. This syntax looks like this
