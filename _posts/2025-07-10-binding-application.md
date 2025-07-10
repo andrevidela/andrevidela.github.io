@@ -16,7 +16,16 @@ This feature is not publicly available yet, but I intend to make it available in
 
 ## What is it?
 
-Binding syntax and binding-application is an idea I had a couple of years ago and presented at WITS. It's a syntactic feature piggybacking on the function-space of a dependent programming language that offers some customisation to the notion of _binding_. The main use case is to describe types such as $\Pi$ or $\Sigma$ where the second argument is a function dependent on the type given in the first argument. This way, a function $\Sigma (a : Type) . f(a)$ can be rewritten as $\Sigma\ Type\ (\lambda a . f (a))$. Functions of this sort are `typebind` because they are meant to bind a type argument, and any such function written `f (x : t) | g x` desugars to `f t (\x : Type => g x)` This pattern can be generalised to any function with a trailing lambda where the second argument does not necessarily depend on the first. This syntax looks like this `f (x <- e) | g x` and desugars to `f e (\x : ? => g x)`, those functions are `autobind` since the type is automatically inferred.
+Binding syntax and binding-application is an idea I had a couple of years ago and presented at WITS.
+It's a syntactic feature piggybacking on the function-space of a dependent programming language that
+offers some customisation to the notion of _binding_. The main use case is to describe types such as
+$$\Pi$$ or $$\Sigma$$ where the second argument is a function dependent on the type given in the first
+argument. This way, a function $$\Sigma (a : Type) . f(a)$$ can be rewritten as
+$$\Sigma\ Type\ (\lambda a . f (a))$$. Functions of this sort are `typebind` because they are meant
+to bind a type argument, and any such function written `f (x : t) | g x` desugars to
+`f t (\x : Type => g x)` This pattern can be generalised to any function with a trailing lambda where
+the second argument does not necessarily depend on the first. This syntax looks like this
+`f (x <- e) | g x` and desugars to `f e (\x : ? => g x)`, those functions are `autobind` since the type is automatically inferred.
 
 ## Use-cases
 ### Sigma
@@ -36,7 +45,7 @@ RichList a = Sigma Nat (\n => Vect n a)
 
 By marking the type as binding, we can use a much more natural syntactic form.
 
-```
+```idris
 typebind
 record Sigma (a : Type) (b : a -> Type) where
   constructor (&&)
@@ -121,7 +130,7 @@ FinO = Sig (#["Z", "S"]) $ \case
 
 Another type in `base` is the predicate transformer `All : (p : a -> Type) -> (xs : List a) -> Type`. It takes a predicate `p` and ensures it holds for every element of the list `xs`. There are some cases where writing the predicate is a bit awkward because it cannot be written point-free and requires a lambda. For this, one can use a binding alias:
 
-```
+```idris
 autobind
 ForAll : List a -> (a -> Type) -> Type
 ForAll xs p = All p xs
