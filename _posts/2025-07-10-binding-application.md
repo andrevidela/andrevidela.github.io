@@ -16,21 +16,23 @@ This feature is not publicly available yet, but I intend to make it available in
 
 ## What is it?
 
-Binding syntax and binding-application is an idea I had a couple of years ago and presented at WITS.
+Binding syntax and binding-application is an idea I had a couple of years ago and presented at
+[WITS 2024](https://popl24.sigplan.org/details/wits-2024-papers/1/Binding-Syntax-for-Dependently-Typed-Programs).
 It's a syntactic feature piggybacking on the function-space of a dependent programming language that
-offers some customisation to the notion of _binding_. The main use case is to describe types such as
+offers some customisation to the notion of _binding_. The main use case is to facilitate writing types such as
 $$\Pi$$ or $$\Sigma$$ where the second argument is a function dependent on the type given in the first
-argument. This way, a function $$\Sigma (a : Type) . f(a)$$ can be rewritten as
-$$\Sigma\ Type\ (\lambda a . f (a))$$. Functions of this sort are `typebind` because they are meant
+argument. This way, a function $$\Sigma (a : Type) . f(a)$$ is equivalent to
+$$\Sigma\ Type\ (\lambda a . f (a))$$. In Idris, on can mark such functions as `typebind` because they are meant
 to bind a type argument, and any such function written `f (x : t) | g x` desugars to
 `f t (\x : Type => g x)` This pattern can be generalised to any function with a trailing lambda where
 the second argument does not necessarily depend on the first. This syntax looks like this
 `f (x <- e) | g x` and desugars to `f e (\x : ? => g x)`, those functions are `autobind` since the type is automatically inferred.
 
-## Use-cases
+Let's move onto the use cases.
+
 ### Sigma
 
-Dependent pairs, or sigma types, are ubiquitous in programming with dependent types.
+Dependent pairs, or sigma-types, are ubiquitous in programming with dependent types.
 If you define your own sigma-type, you have to use a lambda to describe the type of the second projection.
 
 ```idris
@@ -40,7 +42,7 @@ record Sigma (a : Type) (b : a -> Type) where
   second : b first
 
 RichList : Type -> Type
-RichList a = Sigma Nat (\n => Vect n a)
+RichList a = Sigma Nat (\n => Vect n a) -- lambda here
 ```
 
 By marking the type as binding, we can use a much more natural syntactic form.
@@ -201,7 +203,7 @@ for x in xs {
 Back to Idris, it has a function `traverse` with the type `traverse : Traversable t => Applicative f => (a -> f b) -> t a -> f (t b)`, this type captures the notion that for every " iterator" `t`, we can perform a side-effect `f` and return a new list.
 With binding application we can define `for` in Idris as an alias for `traverse`.
 
-```idris
+```haskell
 autobind
 for : Applicative f => Traversable t => t a -> (a -> f b) -> f (t b)
 for = flip traverse
