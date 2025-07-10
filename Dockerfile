@@ -10,7 +10,10 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
     build-essential \
     zlib1g-dev \
     jupyter-nbconvert \
-    inotify-tools procps && \
+    inotify-tools procps \
+    nodejs \
+    libv8-dev \
+    pkg-config && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
 
 
@@ -21,7 +24,8 @@ RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
 ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8 \
-    JEKYLL_ENV=production
+    JEKYLL_ENV=production \
+    LIBV8_BINARY=true
 
 # install jekyll and dependencies
 RUN gem install jekyll bundler
