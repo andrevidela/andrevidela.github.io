@@ -23,7 +23,7 @@ offers some customisation to the notion of _binding_. The main use case is to fa
 $$\Pi$$ or $$\Sigma$$ where the second argument is a function dependent on the type given in the first
 argument. In Idris, one can mark such functions as `typebind` because they are meant
 to bind a type argument, and any such function written `f (x : t) | g x` desugars to
-`f t (\x : Type => g x)` This pattern can be generalised to any function with a trailing lambda where
+`f t (\x : t => g x)` This pattern can be generalised to any function with a trailing lambda where
 the second argument does not necessarily depend on the first. This syntax looks like this
 `f (x <- e) | g x` and desugars to `f e (\x : ? => g x)`, those functions are `autobind` since the type is automatically inferred.
 
