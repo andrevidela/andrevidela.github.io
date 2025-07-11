@@ -100,7 +100,7 @@ Ornaments are type-descriptors, they contain all the necessary to build types wi
 
 We notice that both `Sig` and `Del` have the perfect shape for making use of binding application.  Therefore, we can rename them and mark them as binding:
 
-```idris
+```haskell
   data Orn : (j : Type) -> (j -> i) -> Desc i -> Type where
 
     Say : Inverse e i -> Orn j e (Say i)
