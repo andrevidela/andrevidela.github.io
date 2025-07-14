@@ -129,7 +129,8 @@ FinO = Sig (#["Z", "S"]) $ \case
 ```
 ### ForAll
 
-Another type in `base` is the predicate transformer `All : (p : a -> Type) -> (xs : List a) -> Type`. It takes a predicate `p` and ensures it holds for every element of the list `xs`. There are some cases where writing the predicate is a bit awkward because it cannot be written point-free and requires a lambda. For this, one can use a binding alias:
+Another type in [`base`](https://www.idris-lang.org/docs/idris2/current/base_docs/docs/Data.List.Quantifiers.html#Data.List.Quantifiers.All.All)
+is the predicate transformer `All : (p : a -> Type) -> (xs : List a) -> Type`. It takes a predicate `p` and ensures it holds for every element of the list `xs`. There are some cases where writing the predicate is a bit awkward because it cannot be written point-free and requires a lambda. For this, one can use a binding alias:
 
 ```idris
 autobind
@@ -154,7 +155,8 @@ All (\x => LTE x 9) xs
 ```
 ### ForSome
 
-In addition to `All` there is `Any` a predicate transformer that ensures exactly one of the elements in the list satisfies the predicate. The alias can be written in the same way:
+In addition to `All` there is [`Any`](https://www.idris-lang.org/docs/idris2/current/base_docs/docs/Data.List.Quantifiers.html#Data.List.Quantifiers.Any.Any)
+a predicate transformer that ensures exactly one of the elements in the list satisfies the predicate. The alias can be written in the same way:
 
 ```idris
 autobind
