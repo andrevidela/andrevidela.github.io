@@ -156,7 +156,7 @@ All (\x => LTE x 9) xs
 ### ForSome
 
 In addition to `All` there is [`Any`](https://www.idris-lang.org/docs/idris2/current/base_docs/docs/Data.List.Quantifiers.html#Data.List.Quantifiers.Any.Any)
-a predicate transformer that ensures exactly one of the elements in the list satisfies the predicate. The alias can be written in the same way:
+a predicate transformer that holds exactly one proof that an element in the list satisfies the predicate. The alias can be written in the same way:
 
 ```idris
 autobind
