@@ -1,11 +1,17 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: research
+permalink: /research/
+description: >
+  My goal is to find advance the state of the art in software engineering and its understanding.
+  For too long, writing Software relied on imprecise tools unable to appropriately express the intent
+  behind the software. My research uses constructive mathematical foundations to reveal structures in
+  software that we could previously only speculate about. By being able to
+  see and manipulate previously invisible structures, I hope to make softwaret
+  service of humanity.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [research, personal]
 horizontal: false
 ---
 

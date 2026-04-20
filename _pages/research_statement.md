@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Researcher at Glaive
+subtitle: Functional programmer with an inkling for type theory and category theory.
 
 profile:
   align: right
@@ -17,9 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 I'm interested in dependent types, programming languages, user experience and user interfaces, compiler architecture, lenses, quantitative types, and more.
 
-Currenly working at (Glaive)[http://glaive-research.org].
-
-You can find me on mastodon [@andrev@types.pl](https://types.pl/@Andrev/).
+You can find me on discord (identity5193) and mastodon [@andrev@types.pl](https://types.pl/@Andrev/).
 
 ## Current projects
 

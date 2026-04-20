@@ -4,7 +4,7 @@ title: Idris 2
 description: A programming language with dependent types
 img: assets/img/idris-project-logo.png
 importance: 1
-category: work
+category: personal
 related_publications: false
 ---
 
